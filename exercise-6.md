@@ -84,3 +84,12 @@ const subtract(a, b) => {
 subtract(10, 20);
 ```
 
+### there is another way to change function name in vim.
+
+```javascript
+const subtract(a, b) => {
+  return a + b;
+}
+
+subtract(10, 20);
+```
