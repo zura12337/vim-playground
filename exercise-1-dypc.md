@@ -9,6 +9,7 @@ delete me delete me delete me delete me (dd)
 yank me and paste below (yyp)
 
 yank me and paste above (yyP)
+
 ## visual mode
 
 ### visual mode
@@ -17,14 +18,13 @@ highlight part of this line by pressing v, then navigate around escape to leave 
 
 ### visual line mode
 
-highlight this line by pressing v, then navigate around escape to leave visual mode
+highlight this line by pressing V, then navigate around escape to leave visual mode
 
 ### visual mode + yank and paste
 
 Highlight this line by pressing V, then press y press p 
 
-Highlight ---this point--- by pressing v, press y (What happened?) press p (What happened?)
----this point---
+Highlight ---this point--- by pressing v, press y press p
 
 Highlight this line by pressing V, then press d
 
@@ -43,5 +43,4 @@ type `:reg` in command mode
 
 access registers in normal mode by "{name}p
                  in instert mode by <C-r>{name}
-
 

@@ -23,3 +23,5 @@ rotate of buffers <C-w>r
 close all buffers except focused one <C-w>o
 
 ## see all opened buffers by typing `:ls` in command mode and type `:b {buffer_id or file_name}` to go to that file.
+
+## more info: `:help buffers`

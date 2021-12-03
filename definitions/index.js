@@ -5,4 +5,6 @@ const sumNumbers = (a, b) => {
   return a + b;
 }
 
-// Lets call 'sum' function and use definitions autocomplete.
+// Lets call 'sum' function and use definitions autocomplete. 
+// <C-x><C-d>
+

@@ -1,7 +1,6 @@
 # Exercise 2: Advanced Navigation
 
-
-### use gg to go to the first line, use G to go to the last line
+### use G to go to the last line, use gg to go to the first line
 
 ### Use relative numbers to go to the line that contains o and replace it with + by pressing $ and s
 
@@ -26,7 +25,7 @@ Remove
 this
 paragraph
 by pressing
-dip (Delete into paragraph)
+dip
 
 +-----------+
 +---------+
@@ -45,15 +44,25 @@ function sum (a, b) {
 }
 ```
 
+### this also works on [], () and ""
+
+```javascript
+const sum = (a, b) => {
+  console.log("Hello World");
+  return a + b;
+}
+
+```
+
 ### you can find symbol by pressing f and letter you want to find on the line you are currently on.
 
 ### lets find o by pressing fo and replace it with + by pressing s
 
-+---+ +------+ +--o +--+ +-----+ +----+ +--+ +----o
++---+ +------+ +--+ +--+ +-----+ +----+ +--+ +----+
 
 ### t is like f, but it moves cursor with one letter before
 
-### remove whole line but leave only ;, by pressing dt;
+### remove function content but leave only ;, by pressing dt;
 
 ```javascript
 function sum = (a, b) => return a + b;
@@ -68,7 +77,7 @@ const sum = (a, b) => {
 
 ### lets press zz to center buffer
 
-### search for 0 by pressing /0
+### search for 0 by pressing /0, press n to go to the next result, and N to go to the previous one.
 ### and in command mode type `:set hls` to highlight all searched text
 ### to remove highlight from all searched text, in command mode type `:set nohlsearch`
 
@@ -85,3 +94,39 @@ const sum = (a, b) => {
 00111111111111110000111000111100111001111000
 00011111111111000001110001111000000011110000
 00001111111100000011100011110000000111100000
+
+
+### we can jump by half page down by pressing <C-d> and to go up we can press <C-u>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+

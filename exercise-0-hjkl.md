@@ -1,4 +1,3 @@
-
 # Exercise 0: Basic Movement.
 
 ## press j to go down
